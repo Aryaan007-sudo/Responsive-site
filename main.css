@@ -1,0 +1,228 @@
+body {
+  
+    background-image: url(Title-Image.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+
+*{
+     
+        font-family: "Roboto", na;
+        font-weight: 300;
+        font-style: normal;
+        /* box-sizing: border-box; */ 
+        overflow-x: hidden;   
+}
+
+.btn{
+    background: none;
+    border: none;
+}
+
+
+.logo{
+   width: 90px;
+   margin-left: 2%;
+   margin-top: 0.7%;
+   background-repeat: no-repeat;
+   
+}
+#topbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     margin-left: 150px;
+     margin-top: -20px;
+    gap: 20px;
+    color: black;
+    width: 800px;
+    /* background-color: wheat; */
+}
+.start{
+    font-weight: 800;
+}
+.miniLogo{
+    /* display: flex; */
+
+    margin-left: 80%;
+    gap: 30px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    margin-top: -30px;
+   
+}
+
+
+.symbol{
+    height: 5vh;
+}
+.show{
+    color: white;
+    font-family:"Roboto" ;
+}
+#show{
+    position: relative;
+    margin-top: 28%;
+    left:4%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-weight: 600;
+    
+}
+.title{
+    position: relative;
+    left:4%;
+    font-weight: 700;
+    font-size: 150px;
+    color:white;
+    margin-top: -10px;
+    
+}
+.play{
+    position: relative;
+    left:5%;
+    width: 80px;
+    height: 40px;
+    color: black;
+    font-weight: 600;
+}
+.arrow{
+    width: 1vw;
+}
+.info{
+    position: relative;
+    left:6%;
+    width: 130px;
+    height: 40px;
+    background-color:transparent;
+    /* border: none; */
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.id{
+    width: 1.2vw;
+}
+#action{
+    display: flex;
+}
+#history{
+    position: relative;
+    left:5%;
+    width: 9%;
+    margin-top: 80px;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+.arrow_right{
+    width: 1vw;
+}
+.see_again{
+    position: relative;
+    left:5%;
+    display: flex;
+    margin-top: 25px;
+    width: 100vw;
+
+}
+.top{
+    position: relative;
+    left:5%;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    margin-top: 50px;
+    width: 20%;
+
+
+
+}
+#black{
+    background-color: black;
+    /* margin-left: -8px;
+    width: 110vw;
+    height: 180vh; */
+    width: 100%;
+
+    
+}
+.rank{
+    margin-top: 30px;
+    display: flex;
+}
+.trend ,.sci{
+    position: relative;
+    left:5%;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    margin-top: 50px;
+    width: 12%;
+
+
+}
+.trending ,.sci-fi{
+    position: relative;
+    left:5%;
+    margin-top: 30px;
+    display: flex
+}
+.mini1:hover ,.mini2:hover ,.mini3:hover,.mini4:hover,.mini5:hover,.start,
+.start1,.start2,.start3,.start4,.play,.logo,.info{
+    cursor:pointer;
+}
+#history:hover,.sci:hover,.trend:hover,.top:hover{
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+@media only screen and (max-width: 600px) {
+    #history,.top,.trend,.sci{
+        width: 300px;
+
+    }
+    .see_again,.trending,.rank,.sci-fi{
+        flex-direction: column;
+        gap:2rem;
+    }
+    body{
+        background-size: 320px  619px;
+    }
+   
+  .title{
+    font-size: 100px;
+
+  }
+  #topbar{
+    flex-direction: column;
+    margin-top: 2px;
+    margin-left: -50px;
+    width: 200px;
+    gap:4px;
+    color: white;
+    
+
+    
+    
+  }
+  .miniLogo{
+    margin-left: 60%;
+    width: 200px;
+    gap: 10px;
+    margin-top: -45%;
+    flex-direction: column;
+    
+    
+  }
+  
+}
